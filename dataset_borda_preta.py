@@ -2,6 +2,7 @@ import cv2
 import os
 from tqdm import tqdm
 
+
 def pad_image_with_black(image, target_width, target_height):
     """
     Redimensiona uma imagem para um tamanho alvo usando preenchimento preto.

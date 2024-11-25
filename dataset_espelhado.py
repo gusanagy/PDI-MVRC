@@ -2,6 +2,7 @@ import cv2
 import os
 from tqdm import tqdm
 
+
 def pad_image_with_mirror(image, target_width, target_height):
     """
     Redimensiona uma imagem para um tamanho alvo usando espelhamento nas bordas.
