@@ -1,0 +1,37 @@
+path: /home/pdi-b06/Area de Trabalho/JoseR/CONCURSO
+train: 
+  - Data_yolos_extra/fish/train/images
+  - Data_yolos_extra/shark/train/images
+  - Data_yolos_extra/octopus/train/images
+  - Data_yolos_extra/starfish/train/images
+  - Data_yolos_extra/ray/train/images
+  - Data_yolos_extra/turtle/train/images
+  - Data_yolos_extra/jellyfish/train/images
+
+val:
+  - Data_yolos_extra/fish/valid/images
+  - Data_yolos_extra/shark/valid/images
+  - Data_yolos_extra/octopus/valid/images
+  - Data_yolos_extra/starfish/valid/images
+  - Data_yolos_extra/ray/valid/images
+  - Data_yolos_extra/turtle/valid/images
+  - Data_yolos_extra/jellyfish/valid/images
+
+test: Data_yolos_extra/Dataset/images
+
+nc: 7
+names: [
+    'fish',
+    'shark',
+    'octopus',
+    'starfish',
+    'ray',
+    'turtle',
+    'jellyfish',]
+
+roboflow:
+  workspace: weed-pp05h
+  project: cottonweedyolo
+  version: 304
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/weed-pp05h/cottonweedyolo/dataset/304
