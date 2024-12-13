@@ -1,0 +1,20 @@
+train:
+val:
+  - Data_yolos_extra/Dataset/images
+
+nc: 7
+names: [
+    'fish',
+    'shark',
+    'octopus',
+    'starfish',
+    'ray',
+    'turtle',
+    'jellyfish',]
+
+roboflow:
+  workspace: weed-pp05h
+  project: cottonweedyolo
+  version: 304
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/weed-pp05h/cottonweedyolo/dataset/304
